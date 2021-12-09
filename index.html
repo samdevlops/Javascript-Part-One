@@ -9,6 +9,17 @@
 <body>
     <h1>Hello</h1>
     <p>Javscript Part 1</p>
+    <form action="index.html" method="dialog">
+        <input id='inp' name="element" type="text" placeholder="Enter next Array Element..." value="">
+        <div class="btns">
+            <button name="btn" type="submit" onclick="addElement()">Add</button>
+            <button onclick="sorted()">Sort</button>
+            <button onclick="deleteAll()">Delete All</button>
+            <button onclick="searching()">Search</button>
+            <button onclick="deleteOne()">Delete</button>
+        </div>
+    </form>
+    <p id="para"></p>
     <script src="scripts/index.js"></script>
 </body>
 </html>
